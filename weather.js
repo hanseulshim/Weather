@@ -20,16 +20,19 @@ $('document').ready(function(){
 					
 					changeWeather=data.weather[0].id;
 					     
+    console.log(data.weather);
     if(changeWeather!=800)
     {
     	changeWeather=Math.floor(changeWeather/100);
     }
+    console.log(changeWeather);
     switch(changeWeather){
     	case 2:
     	changeWeather="thunder-storm";
     	break;
     	case 3:
     	case 5:
+        case 7:
     	changeWeather="rainy";
     	break;
     	case 6:
