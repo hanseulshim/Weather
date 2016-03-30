@@ -1,0 +1,12 @@
+.location-wrapper,.temperature-wrapper{
+
+	color:#FFF;
+	font-size:2em;	
+}
+a:hover{
+	text-decoration:none;
+}
+
+.weather{
+	display:none;
+}
